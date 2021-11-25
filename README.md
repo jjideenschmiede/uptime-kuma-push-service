@@ -1,6 +1,6 @@
-# Uptime Kuma Server Push
+# Uptime Kuma Push Service
 
-[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/jjideenschmiede/uptime-kuma-server-push.svg)](https://golang.org/) [![Go](https://github.com/jjideenschmiede/uptime-kuma-server-push/actions/workflows/go.yml/badge.svg)](https://github.com/jjideenschmiede/uptime-kuma-server-push/actions/workflows/go.yml) [![Docker Image CI](https://github.com/jjideenschmiede/uptime-kuma-server-push/actions/workflows/docker-image.yml/badge.svg)](https://github.com/jjideenschmiede/uptime-kuma-server-push/actions/workflows/docker-image.yml) [![Docker Hub](https://img.shields.io/docker/pulls/jjdevelopment/uptime-kuma-server-push.svg)](https://hub.docker.com/r/jjdevelopment/uptime-kuma-server-push)
+[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/jjideenschmiede/uptime-kuma-push-service.svg)](https://golang.org/) [![Go](https://github.com/jjideenschmiede/uptime-kuma-push-service/actions/workflows/go.yml/badge.svg)](https://github.com/jjideenschmiede/uptime-kuma-server-push/actions/workflows/go.yml) [![Docker Image CI](https://github.com/jjideenschmiede/uptime-kuma-push-service/actions/workflows/docker-image.yml/badge.svg)](https://github.com/jjideenschmiede/uptime-kuma-server-push/actions/workflows/docker-image.yml) [![Docker Hub](https://img.shields.io/docker/pulls/jjdevelopment/uptime-kuma-server-push.svg)](https://hub.docker.com/r/jjdevelopment/uptime-kuma-push-service)
 
 This Docker image is for sending a heartbeat to an [Uptime Kuma](https://github.com/louislam/uptime-kuma) server. Here you will find a little introduction on how to use it.
 
@@ -24,8 +24,8 @@ docker run -d --restart always --name uptime-kuma-server-push -e URL='https://up
 
 Now the container can be started, so that the service can access your Uptime Kuma service and you always know if your servers in the office or at home are still running.
 
-Click [here](https://hub.docker.com/r/jjdevelopment/uptime-kuma-server-push) to go directly to the Docker HUB.
+Click [here](https://hub.docker.com/r/jjdevelopment/uptime-kuma-push-service) to go directly to the Docker HUB.
 
 ## Contribute
 
-If you want to help with development, or have found a bug, open a [new issue](https://github.com/jjideenschmiede/uptime-kuma-server-push/issues).
+If you want to help with development, or have found a bug, open a [new issue](https://github.com/jjideenschmiede/uptime-kuma-push-service/issues).
