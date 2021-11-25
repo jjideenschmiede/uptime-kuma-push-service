@@ -14,9 +14,9 @@
 FROM golang:latest
 
 # Please fill in the config data
-ENV URL https://uptime-kuma.jj-dev.de/api/push/M7KzP0tSTB
+ENV URL default
 ENV MSG OK
-ENV SECONDS 30
+ENV CRON * * * * *
 
 # Copy files to workdir
 COPY . /go/src/app
