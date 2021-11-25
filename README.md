@@ -28,4 +28,4 @@ Click [here](https://hub.docker.com/r/jjdevelopment/uptime-kuma-server-push) to 
 
 ## Contribute
 
-If you want to help with development, or have found a bug, open a [new issue](/issues).
+If you want to help with development, or have found a bug, open a [new issue](https://github.com/jjideenschmiede/uptime-kuma-server-push/issues).
