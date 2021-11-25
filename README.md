@@ -24,6 +24,8 @@ docker run -d --restart always --name uptime-kuma-server-push -e URL='https://up
 
 Now the container can be started, so that the service can access your Uptime Kuma service and you always know if your servers in the office or at home are still running.
 
+Click [here](https://hub.docker.com/r/jjdevelopment/uptime-kuma-server-push) to go directly to the Docker HUB.
+
 ## Contribute
 
 If you want to help with development, or have found a bug, open a [new issue](/issues).
