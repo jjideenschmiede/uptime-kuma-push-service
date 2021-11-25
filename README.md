@@ -19,7 +19,7 @@ The URL must be stored. The other values can be used directly as default values.
 To start the container properly, here is a small template. No volumes need to be mapped and no port is needed, because the software does not need to be accessed directly.
 
 ```console
-docker run -d --restart always --name uptime-kuma-server-push -e URL='https://uptime-kuma.test.de/api/push/M4KzP0tSTB' jjdevelopment/uptime-kuma-server-push
+docker run -d --restart always --name uptime-kuma-push-service -e URL='https://uptime-kuma.test.de/api/push/M4KzP0tSTB' jjdevelopment/uptime-kuma-push-service
 ```
 
 Now the container can be started, so that the service can access your Uptime Kuma service and you always know if your servers in the office or at home are still running.
