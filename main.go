@@ -34,10 +34,6 @@ func main() {
 	msg := os.Getenv("MSG")
 	cron := os.Getenv("CRON")
 
-	if len(msg) <= 0 {
-		msg = "OK"
-	}
-
 	// Define cronjobs
 	s := gocron.NewScheduler(time.UTC)
 
