@@ -14,9 +14,9 @@
 FROM golang:latest
 
 # Please fill in the config data
-ENV URL default
-ENV MSG OK
-ENV CRON * * * * *
+ENV URL='default'
+ENV MSG='OK'
+ENV CRON='* * * * *'
 
 # Copy files to workdir
 COPY . /go/src/app
